@@ -12,9 +12,15 @@ public class Test : MonoBehaviour
     {
         int array;
         {
-            int[] points = { 19, 48, 78, 47, 97 };
-            for (int num = 0; num < 4; num++) { Debug.Log(points[num]); };
-            for (int i = 4; i > 0; i--) { Debug.Log(points[i]); }
+            int[] points = new int[6];
+            points[0] = 47;
+            points[1] = 86;
+            points[2] = 43;
+            points[3] = 19;
+            points[4] = 67;
+            points[5] = 57;
+            for (int num = 0; num <= 5; num++) { Debug.Log(points[num]); };
+            for (int i = 5; i >= 0; i--) { Debug.Log(points[i]); }
         }
     }
 
